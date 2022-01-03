@@ -12,3 +12,15 @@
 
 Сейчас взаимодействую с Napoleon IT School (в качестве верстальщика, ментора по курсам, а также пишу курс по верстке). Последний проект – это сайт для магистратуры по Data Science, который они запускают. Ознакомиться с проектом можно по [ссылке](https://fedorovnikita.github.io/csu-np-page/) . Использовал HTML, CSS(SCSS) и JavaScript. Собирал все с помощью Gulp. Также работаю в компании Napoleon IT в качестве Frontend разработчика. В мои обязаности входит поддержка существующего функционала и разработка нового.
 Ссылка на [GitHub](https://github.com/FedorovNikita)
+
+**Пример кода:**
+```javascript
+function getArray(arr) {
+    let arrRes = [];
+    for (let i = 1; i <= arr; i++) {
+        arrRes.push(i);
+    }
+    return arrRes;
+}
+console.log(getArray(10));
+```
